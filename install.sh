@@ -1,8 +1,5 @@
 #!/bin/sh
 
-echo "Installing zsh"
-sudo apt install zsh
-
 echo "Installing neovim"
 wget https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage
 chmod u+x nvim.appimage && ./nvim.appimage --appimage-extract
@@ -14,9 +11,5 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 
 echo "Creating symbolic links"
-cd ~
-ln -sf .dotfiles/.zshrc .zshrc
-
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-cd .config
+cd ~/.config
 ln -sf ../.dotfiles/nvim nvim
