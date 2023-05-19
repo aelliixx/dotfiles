@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='/home/aelliixx/.config/nvim/lua'
+let g:netrw_dirhist_8='/squashfs-root'
+let g:netrw_dirhist_7='/home/aelliixx/.config/nvim/lua/nvim-tree-config'
+let g:netrw_dirhist_6='/home/aelliixx/.config/nvim'
+let g:netrw_dirhist_5='/home/aelliixx/.config'
+let g:netrw_dirhist_4='/home/aelliixx'
+let g:netrw_dirhist_3='/home/aelliixx/Desktop'
+let g:netrw_dirhist_2='/home/aelliixx/Desktop/code'
+let g:netrw_dirhist_1='/home/aelliixx/Desktop'
+let g:netrw_dirhist_0='/home/aelliixx/Desktop/repos'

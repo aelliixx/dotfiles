@@ -1,0 +1,14 @@
+editor.action.formatDocument
+python.enableLinting
+python.enableLinting
+python.enableLinting
+tsserver.reloadProjects
+workspace.undo
+prettier.forceFormatDocument
+prettier.forceFormatDocument
+prettier.forceFormatDocument
+prettier.forceFormatDocument
+prettier.forceFormatDocument
+prettier.forceFormatDocument
+prettier.forceFormatDocument
+clangd.install
