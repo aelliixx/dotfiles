@@ -95,9 +95,13 @@ set tabstop=4
 
 set shiftwidth=4
 
+set number
+
 colorscheme nightfox
 
 filetype plugin on
+
+
 
 lua << EOF
 require'nvim-web-devicons'.setup {

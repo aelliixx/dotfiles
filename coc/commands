@@ -1,3 +1,5 @@
+clangd.symbolInfo
+clangd.projectConfig
 editor.action.formatDocument
 python.enableLinting
 python.enableLinting
