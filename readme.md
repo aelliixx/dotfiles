@@ -2,6 +2,11 @@
 
 ## Installation
 
+Rename the repository from `dotfiles` to `.dotfiles`
+```
+mv dotfiles .dotfiles
+```
+
 Run:
 ```
 ./install-zsh.sh
